@@ -1,0 +1,196 @@
+div.contenedorgeneral{
+width: 1000px;
+background: pink;
+margin-left: auto;
+margin-right: auto;
+
+}
+div.titulo{
+width: 950px;height: 130px;
+background-image: url(Desert.jpg);
+margin-left: auto;
+margin-right: auto; 
+float: right;
+}
+
+#Lista{
+width: 1000px; height: 30px; 
+background-color:pink;
+float: none;
+list-style: none;
+
+
+}
+
+div.cafe{
+width: 180px; 
+height: 200px; 
+background-color:#2242B9 ;
+float: left;
+}
+#interior{
+width: 700px; height: 300px; 
+background-color: white; 
+float: right;
+
+}
+div.pie{
+	width: 950px; 
+	height: 100px;  
+float: bottom;
+}
+header{
+background: #F4B53C;
+}
+nav.n{
+background: green;
+text-align: right; 
+width: 950px;
+display: inline-block;
+list-style: none;
+}
+nav.n ul.n{
+display:inline-block;
+text-align: center
+}
+nav.n ul.n li.n{
+display: inline-block;
+list-style: none;
+font-size: 20px
+}
+nav.n ul.n li.n a.n{
+text-decoration: none;
+color: black;
+}
+nav ul li{
+display: table;
+list-style: none;
+font-size: 20px
+}
+nav ul li a{
+text-decoration: none;
+color: black;
+}
+nav{
+background: #FFF603;
+width: 180px;
+text-align: left;
+}
+nav.p{
+background: green;
+width: 1400px;
+text-align: 
+center;
+clear: both;
+}
+h1.especifico{font-family: Impact; 
+color:black;
+position: right
+}
+h1{font-family: Impact; 
+color:white;
+position: right
+}
+img{
+position:  left
+}
+
+
+
+
+
+
+*{
+		padding: 0px;
+		margin: 0px;
+	}
+
+	#navegacion{
+		margin: auto;
+		width: 500px;
+		float:right;
+	}
+
+
+
+	#Lista li {
+		background:  purple;
+		color: white;
+		text-decoration: none;
+		list-style:none;
+		padding:0px 15px;
+		list-style:none;
+	}
+
+	#Lista > li{
+		float: center;
+	}
+
+
+	#Lista li ul{
+		display: none;
+		position: absolute;
+	}
+	
+	#Lista li ul li{
+		position: relative;
+		right: -150px;
+		top: -18px;
+		
+
+
+
+
+	
+   *{
+		padding: 0px;
+		margin: 0px;
+	}
+
+	#navegacion{
+		margin: auto;
+		width: 500px;
+	}
+
+a{
+	color: white;
+	font-size: 10px;
+	font-family: arial;
+}
+	#Lista2 li {
+		color: white;
+		background-color: purple;
+		height: 30px;
+		width: 150px;
+		list-style: none;
+		font-style: normal;
+
+		
+	}
+
+	
+
+	#Lista2 li:hover{
+		background: green;
+		
+	}
+
+	#Lista2 li ul{
+		display: none;
+		position: absolute;
+		
+	}
+
+	#Lista2 li:hover > ul{
+		display: block;
+		
+	}
+
+	#Lista2 li ul li{
+		position: relative;
+		right: -150px;
+		top: -18px;
+		background-color: green;
+
+	}
+
