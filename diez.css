@@ -1,0 +1,134 @@
+div.contenedorgeneral{
+width: 1000px;
+height: 145px;
+background: pink;
+margin-left: auto;
+margin-right: auto;
+
+}
+div.titulo{
+width: 950px;
+height: 100px;
+background-image: url(Desert.jpg);
+margin-left: auto;
+margin-right: auto; 
+float: right;
+}
+
+#Lista{
+width: 1000px; 
+height: 30px; 
+background-color:pink;
+aling: right;
+list-style: none;
+text-decoration: none;
+}
+
+#Lista a{
+	text-align:right
+}
+
+#interior{
+width: 700px; height: 359px; 
+background-color: white; 
+float: right;
+
+}
+div.pie{
+	width: 950px; 
+	height: 100px;  
+float: bottom;
+}
+header{
+background: #F4B53C;
+}
+
+nav{
+width: 180px;
+text-align: rigth;
+}
+nav.p{
+background: green;
+width: 1000px;
+text-align: 
+center;
+clear: both;
+}
+
+img{
+position:  center;
+}
+
+#col { 
+	float: left; 
+	margin: 0px 20px 10px 0px; 
+	width: 280px; 
+	background-color:pink;
+	
+}
+
+
+.categorias { 
+    padding: 10px;
+	margin: 10px 0 10px 0; 
+	padding: 0; 
+	list-style: none;
+	background-color:pink;
+	
+	
+}
+.libros { 
+margin: 0; 
+padding:0;  
+list-style: none;
+text-decoration: none:
+}
+
+.libros li .no_margin_right { margin-right: 0 }
+.libros li img { 
+padding: 3px; border: 
+1px solid #ccc; 
+background: #fff; }
+
+
+
+
+	#navegacion{
+		margin: auto;
+		width: 500px;
+		float:right;
+	}
+
+
+
+	#Lista li {
+		background:  purple;
+		color: white;
+		text-decoration: none;
+		list-style:none;
+		padding:0px 15px;
+	
+	}
+
+	#Lista > li{
+		float: center;
+	}
+
+
+	#Lista li ul{
+		display: none;
+		position: absolute;
+	}
+	
+	#Lista li ul li{
+		position: relative;
+		right: -150px;
+		top: -18px;
+		
+
+
+
+
+	
+   
+
