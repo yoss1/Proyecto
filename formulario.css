@@ -1,0 +1,90 @@
+div.contenedorgeneral{
+width: 1000px;
+height: 145px;
+background: silver;
+margin-left: auto;
+margin-right: auto;
+
+}
+div.titulo{
+width: 950px;
+height: 100px;
+
+margin-left: auto;
+margin-right: auto; 
+float: left;
+}
+
+#Lista{
+width: 1000px; 
+height: 30px; 
+background-color:pink;
+text-decoration: none;
+list-style: none;
+
+}
+
+#Lista a:{
+	    display: block;
+}
+
+#interior{
+width: 1000px; 
+height: 740px; 
+background-color: white; 
+float: left;
+
+}
+div.pie{
+	width: 950px; 
+	height: 200px;  
+
+}
+
+nav.p{
+background: silver;
+width: 1000px;
+text-align: 
+center;
+clear: both;
+}
+
+.form{
+	position:relative;
+	width:500px;
+	height:710px;
+	padding-left: 20px;
+	padding-top: 15px;
+	background-color:#e5dfcd;
+	border-radius: 20px;
+	margin:auto;
+}
+
+input[type=text],[type=email],[type=number],[type=tel],[type="password"]{
+	width:470px;
+	height:35px;
+	font: 14px normal normal uppercase helvetica, arial, serif;  
+}
+
+textarea{
+	width: 470px;
+	height: 110px;
+	font: 14px normal normal uppercase helvetica, arial, serif;
+}
+
+input[type=submit]{
+	position:relative;
+	width:150px;
+	height:40px;
+	border-radius:20px;
+	margin-left: 150px;
+	border:0px;
+	background-color:#32A43E;
+	font: 14px normal normal uppercase helvetica, arial, serif;
+}
+
+p{
+	text-shadow:0 1px 0 #fff;
+	font-size:24px;
+}
+

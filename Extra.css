@@ -1,0 +1,97 @@
+div.contenedorgeneral{
+width: 1000px;
+height: 145px;
+background: silver;
+margin-left: auto;
+margin-right: auto;
+
+}
+div.titulo{
+width: 950px;
+height: 100px;
+
+margin-left: auto;
+margin-right: auto; 
+float: left;
+}
+
+#Lista{
+width: 1000px; 
+height: 30px; 
+background-color:pink;
+text-decoration: none;
+list-style: none;
+
+}
+
+#Lista a:{
+	    display: block;
+}
+
+#interior{
+width: 700px; height: 740px; 
+background-color: white; 
+float: right;
+
+}
+div.pie{
+	width: 950px; 
+	height: 1000px;  
+
+}
+
+nav.p{
+background: silver;
+width: 1000px;
+text-align: 
+center;
+clear: both;
+}
+
+
+
+#col { 
+	float: left; 
+	margin: 0px 20px 10px 0px; 
+	width: 280px; 
+	background-color: lightpink;
+	display: block;
+	border-radius: 10px;
+	
+}
+
+
+.categorias { 
+    padding-top: 30px;
+	padding: 0; 
+	list-style: none;
+	background-color:pink;
+	display: block;
+	border-radius: 10px;
+	
+}
+
+.categorias li {
+		background:  pink;
+		text-decoration: none;
+		padding:4px 20px;
+	    display: block;
+	   border-radius: 10px;
+}
+.categorias li a:hover{
+		background: violet;
+	    display: block;
+}
+
+.libros { 
+margin: 0; 
+padding:0;  
+list-style: none;
+text-decoration: none:
+}
+
+
+.libros li img { 
+padding: 3px; border: 
+1px solid #ccc; 
+background: #fff; }
